@@ -1,0 +1,37 @@
+{
+  "name": "react-tdd",
+  "version": "1.0.0",
+  "description": "A Todo App using TDD",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev-start": "nodemon src/server.js",
+    "test": "jest --watchAll --env=jsdom",
+    "build": "webpack --mode production --watch"
+  },
+  "keywords": [
+    "react",
+    "tdd",
+    "todo"
+  ],
+  "author": "Sarah Silva",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-test-renderer": "^16.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.0.0",
+    "babel-loader": "^8.0.5",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.8.0",
+    "jest": "^24.0.0",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  }
+}
